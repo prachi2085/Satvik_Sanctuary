@@ -5,7 +5,7 @@ import { ChatMessage } from '../models/chatbot.model';
 
 @Injectable({ providedIn: 'root' })
 export class ChatbotService {
-  private apiUrl = 'https://localhost:7071/api/chat';
+  private apiUrl = 'https://satvik-sanctuary-backend.onrender.com/api/chat';
 
   constructor(private http: HttpClient) { }
 

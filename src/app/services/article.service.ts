@@ -8,7 +8,7 @@ import { Article } from '../models/article.model';
 })
 export class ArticleService {
 
-  private apiUrl = 'https://localhost:7071/api/articles';
+  private apiUrl = 'https://satvik-sanctuary-backend.onrender.com/api/articles';
 
   constructor(private http: HttpClient) { }
 

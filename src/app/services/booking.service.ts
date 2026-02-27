@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class BookingService {
 
-  private api = 'https://localhost:7071/api/bookings';
+  private api = 'https://satvik-sanctuary-backend.onrender.com/api/bookings';
 
   constructor(private http: HttpClient) { }
 

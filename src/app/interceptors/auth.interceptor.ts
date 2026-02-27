@@ -12,7 +12,7 @@ export const authInterceptor: HttpInterceptorFn = (req, next) => {
 
   // ✅ Allow both local + production API
   const isApiRequest =
-    req.url.includes('localhost:7071') ||
+    req.url.includes('https://satvik-sanctuary-backend.onrender.com') ||
     req.url.includes('your-render-backend-url.onrender.com');
 
   let authReq = req;

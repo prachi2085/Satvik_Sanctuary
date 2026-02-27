@@ -9,7 +9,7 @@ import { jwtDecode } from 'jwt-decode';
 })
 export class AuthService {
 
-  private apiUrl = 'https://localhost:7071/api/auth';
+  private apiUrl = 'https://satvik-sanctuary-backend.onrender.com/api/auth';
   private logoutTimer: any;
 
   constructor(private http: HttpClient, private router: Router) { }

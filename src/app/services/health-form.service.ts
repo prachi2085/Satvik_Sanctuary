@@ -5,7 +5,7 @@ import { HealthForm } from '../models/health-form.model';
 
 @Injectable({ providedIn: 'root' })
 export class HealthFormService {
-  private apiUrl = 'https://localhost:7071/api/healthform';
+  private apiUrl = 'https://satvik-sanctuary-backend.onrender.com/api/healthform';
 
   constructor(private http: HttpClient) { }
 

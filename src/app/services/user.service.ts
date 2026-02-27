@@ -5,7 +5,8 @@ import { User } from '../models/user.model';
 
 @Injectable({ providedIn: 'root' })
 export class UserService {
-  private apiUrl = 'https://localhost:7071/api/user';
+  //private apiUrl = 'https://satvik-sanctuary-backend.onrender.com/api/user';
+  private apiUrl = 'https://satvik-sanctuary-backend.onrender.com';
 
   constructor(private http: HttpClient) { }
 

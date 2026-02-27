@@ -1,0 +1,940 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\user.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\user.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\health-form.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\health-form.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\chatbot.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\chatbot.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\booking.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\booking.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\article.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\article.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\announcement.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\announcement.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\interceptors\\auth.interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\interceptors\\auth.interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\announcement\\announcement.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\announcement\\announcement.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\announcement\\announcement.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\announcement\\announcement.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\home\\home.component.ts||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\home\\home.component.ts||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\articles\\articles.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\articles\\articles.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\articles\\articles.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\articles\\articles.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\article.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\article.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\home\\home.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\home\\home.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\articles\\articles.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\articles\\articles.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\register\\register.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\register\\register.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\navbar\\navbar.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\shared\\navbar\\navbar.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\health-form\\health-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\health-form\\health-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\health-form.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\health-form.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\health-form\\health-form.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\health-form\\health-form.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\announcement\\announcement.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\announcement\\announcement.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\booking\\booking.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\booking\\booking.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\health-form\\health-form.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\health-form\\health-form.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\footer\\footer.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\shared\\footer\\footer.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\footer\\footer.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\shared\\footer\\footer.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\styles.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\footer\\footer.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\shared\\footer\\footer.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\auth.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\auth.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\medium.service.ts||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\medium.service.ts||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\announcement.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\announcement.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\guards\\auth.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\guards\\auth.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\booking\\booking.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\booking\\booking.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\chatbot\\chatbot.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\chatbot\\chatbot.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prachi Malhotra\\OneDrive\\Desktop\\HealthWellness\\HealthWellness_Frontend\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\chatbot.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\chatbot.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\booking.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\booking.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\user.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\user.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\chatbot\\chatbot.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\chatbot\\chatbot.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\booking\\booking.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\booking\\booking.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\chatbot\\chatbot.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\chatbot\\chatbot.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\login\\login.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\pages\\login\\login.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "home.component.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\home\\home.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\home\\home.component.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\home\\home.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\home\\home.component.ts",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T10:02:00.464Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "announcement.service.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\announcement.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\announcement.service.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\announcement.service.ts",
+              "RelativeToolTip": "src\\app\\services\\announcement.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:50:43.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "article.service.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\article.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\article.service.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\article.service.ts",
+              "RelativeToolTip": "src\\app\\services\\article.service.ts",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-20T14:01:51.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "booking.service.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\booking.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\booking.service.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\booking.service.ts",
+              "RelativeToolTip": "src\\app\\services\\booking.service.ts",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:50:09.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "chatbot.service.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\chatbot.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\chatbot.service.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\chatbot.service.ts",
+              "RelativeToolTip": "src\\app\\services\\chatbot.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:50:20.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "health-form.service.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\health-form.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\health-form.service.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\health-form.service.ts",
+              "RelativeToolTip": "src\\app\\services\\health-form.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:50:32.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "user.service.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\user.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\user.service.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\user.service.ts",
+              "RelativeToolTip": "src\\app\\services\\user.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:50:55.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "auth.service.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\auth.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\auth.service.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\auth.service.ts",
+              "RelativeToolTip": "src\\app\\services\\auth.service.ts",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:49:58.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "auth.interceptor.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\interceptors\\auth.interceptor.ts",
+              "RelativeDocumentMoniker": "src\\app\\interceptors\\auth.interceptor.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\interceptors\\auth.interceptor.ts",
+              "RelativeToolTip": "src\\app\\interceptors\\auth.interceptor.ts",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-22T18:37:07.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\.gitignore",
+              "RelativeDocumentMoniker": "src\\.gitignore",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\.gitignore",
+              "RelativeToolTip": "src\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T10:41:06.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.component.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\login\\login.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\login\\login.component.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\login\\login.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\login\\login.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T10:03:17.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "announcement.component.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\announcement\\announcement.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\announcement\\announcement.component.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\announcement\\announcement.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\announcement\\announcement.component.ts",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-20T13:26:09.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "announcement.component.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\announcement\\announcement.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\announcement\\announcement.component.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\announcement\\announcement.component.html",
+              "RelativeToolTip": "src\\app\\pages\\announcement\\announcement.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-20T12:20:39.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "articles.component.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\articles\\articles.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\articles\\articles.component.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\articles\\articles.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\articles\\articles.component.ts",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-20T12:08:40.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "articles.component.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\articles\\articles.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\articles\\articles.component.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\articles\\articles.component.html",
+              "RelativeToolTip": "src\\app\\pages\\articles\\articles.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-17T10:02:56.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "home.component.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\home\\home.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\home\\home.component.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\home\\home.component.html",
+              "RelativeToolTip": "src\\app\\pages\\home\\home.component.html",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-25T08:48:08.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "article.model.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\article.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\article.model.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\article.model.ts",
+              "RelativeToolTip": "src\\app\\models\\article.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:51:15.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "home.component.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\home\\home.component.scss",
+              "RelativeDocumentMoniker": "src\\app\\pages\\home\\home.component.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\home\\home.component.scss",
+              "RelativeToolTip": "src\\app\\pages\\home\\home.component.scss",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAAABMBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-20T14:16:27.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "articles.component.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\articles\\articles.component.scss",
+              "RelativeDocumentMoniker": "src\\app\\pages\\articles\\articles.component.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\articles\\articles.component.scss",
+              "RelativeToolTip": "src\\app\\pages\\articles\\articles.component.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-22T18:30:44.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "register.component.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\register\\register.component.scss",
+              "RelativeDocumentMoniker": "src\\app\\pages\\register\\register.component.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\register\\register.component.scss",
+              "RelativeToolTip": "src\\app\\pages\\register\\register.component.scss",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-18T11:56:47.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "app.routes.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.routes.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.routes.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.routes.ts",
+              "RelativeToolTip": "src\\app\\app.routes.ts",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-22T17:12:06.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "main.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\main.ts",
+              "RelativeDocumentMoniker": "src\\main.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\main.ts",
+              "RelativeToolTip": "src\\main.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-22T11:01:35.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "health-form.component.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\health-form\\health-form.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\health-form\\health-form.component.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\health-form\\health-form.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\health-form\\health-form.component.ts",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T10:03:41.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "navbar.component.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\navbar\\navbar.component.html",
+              "RelativeDocumentMoniker": "src\\app\\shared\\navbar\\navbar.component.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\navbar\\navbar.component.html",
+              "RelativeToolTip": "src\\app\\shared\\navbar\\navbar.component.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-17T10:09:15.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "health-form.model.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\health-form.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\health-form.model.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\health-form.model.ts",
+              "RelativeToolTip": "src\\app\\models\\health-form.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:52:32.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "health-form.component.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\health-form\\health-form.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\health-form\\health-form.component.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\health-form\\health-form.component.html",
+              "RelativeToolTip": "src\\app\\pages\\health-form\\health-form.component.html",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-17T10:03:47.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "announcement.component.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\announcement\\announcement.component.scss",
+              "RelativeDocumentMoniker": "src\\app\\pages\\announcement\\announcement.component.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\announcement\\announcement.component.scss",
+              "RelativeToolTip": "src\\app\\pages\\announcement\\announcement.component.scss",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-20T12:20:47.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "booking.component.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\booking\\booking.component.scss",
+              "RelativeDocumentMoniker": "src\\app\\pages\\booking\\booking.component.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\booking\\booking.component.scss",
+              "RelativeToolTip": "src\\app\\pages\\booking\\booking.component.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-17T10:04:19.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "health-form.component.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\health-form\\health-form.component.scss",
+              "RelativeDocumentMoniker": "src\\app\\pages\\health-form\\health-form.component.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\health-form\\health-form.component.scss",
+              "RelativeToolTip": "src\\app\\pages\\health-form\\health-form.component.scss",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-17T10:03:55.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "app.component.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.component.scss",
+              "RelativeDocumentMoniker": "src\\app\\app.component.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.component.scss",
+              "RelativeToolTip": "src\\app\\app.component.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-17T11:24:52.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "src\\app\\app.component.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.component.html",
+              "RelativeToolTip": "src\\app\\app.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-17T10:13:44.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "footer.component.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\footer\\footer.component.scss",
+              "RelativeDocumentMoniker": "src\\app\\shared\\footer\\footer.component.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\footer\\footer.component.scss",
+              "RelativeToolTip": "src\\app\\shared\\footer\\footer.component.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-17T10:09:47.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "footer.component.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\footer\\footer.component.html",
+              "RelativeDocumentMoniker": "src\\app\\shared\\footer\\footer.component.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\footer\\footer.component.html",
+              "RelativeToolTip": "src\\app\\shared\\footer\\footer.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-17T10:09:41.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "styles.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\styles.scss",
+              "RelativeDocumentMoniker": "src\\styles.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\styles.scss",
+              "RelativeToolTip": "src\\styles.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-18T11:50:25.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "app.config.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.config.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.config.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.config.ts",
+              "RelativeToolTip": "src\\app\\app.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T12:37:45.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "footer.component.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\footer\\footer.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\shared\\footer\\footer.component.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\shared\\footer\\footer.component.ts",
+              "RelativeToolTip": "src\\app\\shared\\footer\\footer.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T10:09:34.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.component.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.component.ts",
+              "RelativeToolTip": "src\\app\\app.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:11:18.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "auth.model.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\auth.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\auth.model.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\auth.model.ts",
+              "RelativeToolTip": "src\\app\\models\\auth.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:52:55.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "medium.service.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\medium.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\medium.service.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\services\\medium.service.ts",
+              "RelativeToolTip": "src\\app\\services\\medium.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-20T12:50:33.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "announcement.model.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\announcement.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\announcement.model.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\announcement.model.ts",
+              "RelativeToolTip": "src\\app\\models\\announcement.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:52:43.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\angular.json",
+              "RelativeDocumentMoniker": "angular.json",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\angular.json",
+              "RelativeToolTip": "angular.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-20T11:52:16.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "auth.guard.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\guards\\auth.guard.ts",
+              "RelativeDocumentMoniker": "src\\app\\guards\\auth.guard.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\guards\\auth.guard.ts",
+              "RelativeToolTip": "src\\app\\guards\\auth.guard.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-18T11:31:03.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\index.html",
+              "RelativeDocumentMoniker": "src\\index.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\index.html",
+              "RelativeToolTip": "src\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-18T11:50:39.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "booking.component.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\booking\\booking.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\booking\\booking.component.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\booking\\booking.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\booking\\booking.component.ts",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T10:04:05.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\tsconfig.json",
+              "RelativeDocumentMoniker": "tsconfig.json",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\tsconfig.json",
+              "RelativeToolTip": "tsconfig.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T11:34:24.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "app.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\app.ts",
+              "RelativeToolTip": "src\\app\\app.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T12:46:19.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "chatbot.component.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\chatbot\\chatbot.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\chatbot\\chatbot.component.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\chatbot\\chatbot.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\chatbot\\chatbot.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T10:04:31.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\Prachi Malhotra\\OneDrive\\Desktop\\HealthWellness\\HealthWellness_Frontend\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Prachi Malhotra\\OneDrive\\Desktop\\HealthWellness\\HealthWellness_Frontend\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\Prachi Malhotra\\OneDrive\\Desktop\\HealthWellness\\HealthWellness_Frontend\\src\\app\\app.module.ts",
+              "RelativeToolTip": "..\\..\\Users\\Prachi Malhotra\\OneDrive\\Desktop\\HealthWellness\\HealthWellness_Frontend\\src\\app\\app.module.ts",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:01:21.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "chatbot.model.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\chatbot.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\chatbot.model.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\chatbot.model.ts",
+              "RelativeToolTip": "src\\app\\models\\chatbot.model.ts",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:52:19.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "booking.model.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\booking.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\booking.model.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\booking.model.ts",
+              "RelativeToolTip": "src\\app\\models\\booking.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:52:05.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T12:04:05.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "user.model.ts",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\user.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\user.model.ts",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\models\\user.model.ts",
+              "RelativeToolTip": "src\\app\\models\\user.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-02-17T09:51:25.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "booking.component.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\booking\\booking.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\booking\\booking.component.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\booking\\booking.component.html",
+              "RelativeToolTip": "src\\app\\pages\\booking\\booking.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-17T10:04:11.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "chatbot.component.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\chatbot\\chatbot.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\chatbot\\chatbot.component.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\chatbot\\chatbot.component.html",
+              "RelativeToolTip": "src\\app\\pages\\chatbot\\chatbot.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-17T10:04:38.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "login.component.html",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\login\\login.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\login\\login.component.html",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\login\\login.component.html",
+              "RelativeToolTip": "src\\app\\pages\\login\\login.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-17T10:03:23.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "chatbot.component.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\chatbot\\chatbot.component.scss",
+              "RelativeDocumentMoniker": "src\\app\\pages\\chatbot\\chatbot.component.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\chatbot\\chatbot.component.scss",
+              "RelativeToolTip": "src\\app\\pages\\chatbot\\chatbot.component.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-17T10:04:44.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "login.component.scss",
+              "DocumentMoniker": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\login\\login.component.scss",
+              "RelativeDocumentMoniker": "src\\app\\pages\\login\\login.component.scss",
+              "ToolTip": "C:\\Sathvic_Sanctuary\\HealthWellness_Frontend\\src\\app\\pages\\login\\login.component.scss",
+              "RelativeToolTip": "src\\app\\pages\\login\\login.component.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-02-17T10:03:30.283Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

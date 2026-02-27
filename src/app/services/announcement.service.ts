@@ -5,7 +5,7 @@ import { Announcement } from '../models/announcement.model';
 
 @Injectable({ providedIn: 'root' })
 export class AnnouncementService {
-  private apiUrl = 'https://localhost:7071/api/announcements';
+  private apiUrl = 'https://satvik-sanctuary-backend.onrender.com/api/announcements';
 
   constructor(private http: HttpClient) { }
 
