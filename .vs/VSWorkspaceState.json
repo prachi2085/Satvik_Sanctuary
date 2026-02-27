@@ -1,0 +1,20 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.angular",
+    "\\.angular\\cache\\21.1.4",
+    "\\.angular\\cache\\21.1.4\\HealthWellness_Frontend",
+    "\\.angular\\cache\\21.1.4\\HealthWellness_Frontend\\vite",
+    "\\.angular\\cache\\21.1.4\\HealthWellness_Frontend\\vite\\deps",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\models",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\articles",
+    "\\src\\app\\pages\\home",
+    "\\src\\app\\pages\\login",
+    "\\src\\app\\services"
+  ],
+  "SelectedNode": "\\src\\app\\services\\auth.service.ts",
+  "PreviewInSolutionExplorer": false
+}

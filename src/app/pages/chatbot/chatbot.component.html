@@ -1,0 +1,20 @@
+<div class="chat-container">
+  <div class="chat-card">
+    <h2>AI Health Assistant</h2>
+
+    <div class="chat-messages">
+      <div class="message"
+           *ngFor="let msg of messages"
+           [ngClass]="{ 'user': msg.sender === 'user', 'bot': msg.sender === 'bot' }">
+        {{ msg.content }}
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input [(ngModel)]="newMessage"
+             placeholder="Ask something about your health..."
+             (keyup.enter)="sendMessage()">
+      <button (click)="sendMessage()">Send</button>
+    </div>
+  </div>
+</div>

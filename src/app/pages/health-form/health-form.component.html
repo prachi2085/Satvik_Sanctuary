@@ -1,0 +1,157 @@
+<div class="health-container">
+
+  <!-- FORM CARD -->
+  <div class="health-card" *ngIf="!submitted">
+
+    <h2>Submit Health Details</h2>
+
+    <form #healthForm="ngForm"
+          (ngSubmit)="submitForm(healthForm)">
+
+      <!-- NAME -->
+      <input type="text"
+             name="name"
+             [(ngModel)]="form.name"
+             #name="ngModel"
+             required
+             minlength="3"
+             placeholder="Your Name"
+             [class.invalid]="name.invalid && name.touched" />
+
+      <div class="error" *ngIf="name.invalid && name.touched">
+        <small *ngIf="name.errors?.['required']">
+          Name is required.
+        </small>
+        <small *ngIf="name.errors?.['minlength']">
+          Minimum 3 characters required.
+        </small>
+      </div>
+
+
+      <!-- EMAIL (NEW FIELD) -->
+      <input type="email"
+             name="email"
+             [(ngModel)]="form.email"
+             #email="ngModel"
+             required
+             email
+             placeholder="Your Email Address"
+             [class.invalid]="email.invalid && email.touched" />
+
+      <div class="error" *ngIf="email.invalid && email.touched">
+        <small *ngIf="email.errors?.['required']">
+          Email is required.
+        </small>
+        <small *ngIf="email.errors?.['email']">
+          Enter a valid email address.
+        </small>
+      </div>
+
+
+      <!-- AGE -->
+      <input type="number"
+             name="age"
+             [(ngModel)]="form.age"
+             #age="ngModel"
+             required
+             min="1"
+             max="120"
+             placeholder="Age"
+             [class.invalid]="age.invalid && age.touched" />
+
+      <div class="error" *ngIf="age.invalid && age.touched">
+        <small *ngIf="age.errors?.['required']">
+          Age is required.
+        </small>
+        <small *ngIf="age.errors?.['min']">
+          Age must be greater than 0.
+        </small>
+        <small *ngIf="age.errors?.['max']">
+          Age must be less than 120.
+        </small>
+      </div>
+
+
+      <!-- PHONE -->
+      <input type="text"
+             name="contactNumber"
+             [(ngModel)]="form.contactNumber"
+             #phone="ngModel"
+             required
+             pattern="^[0-9]{10}$"
+             placeholder="10-digit Phone Number"
+             [class.invalid]="phone.invalid && phone.touched" />
+
+      <div class="error" *ngIf="phone.invalid && phone.touched">
+        <small *ngIf="phone.errors?.['required']">
+          Phone number is required.
+        </small>
+        <small *ngIf="phone.errors?.['pattern']">
+          Enter a valid 10-digit phone number.
+        </small>
+      </div>
+
+
+      <!-- SYMPTOMS -->
+      <textarea name="symptoms"
+                [(ngModel)]="form.symptoms"
+                #symptoms="ngModel"
+                required
+                minlength="5"
+                placeholder="Symptoms you are facing"
+                [class.invalid]="symptoms.invalid && symptoms.touched">
+      </textarea>
+
+      <div class="error" *ngIf="symptoms.invalid && symptoms.touched">
+        <small *ngIf="symptoms.errors?.['required']">
+          Symptoms are required.
+        </small>
+        <small *ngIf="symptoms.errors?.['minlength']">
+          Please describe at least 5 characters.
+        </small>
+      </div>
+
+
+      <!-- MESSAGE -->
+      <textarea name="message"
+                [(ngModel)]="form.message"
+                #message="ngModel"
+                required
+                minlength="5"
+                placeholder="Your Message"
+                [class.invalid]="message.invalid && message.touched">
+      </textarea>
+
+      <div class="error" *ngIf="message.invalid && message.touched">
+        <small *ngIf="message.errors?.['required']">
+          Message is required.
+        </small>
+        <small *ngIf="message.errors?.['minlength']">
+          Please describe at least 5 characters.
+        </small>
+      </div>
+
+
+      <!-- SUBMIT BUTTON -->
+      <button type="submit"
+              [disabled]="healthForm.invalid || isSubmitting">
+        {{ isSubmitting ? 'Submitting...' : 'Submit' }}
+      </button>
+
+    </form>
+
+  </div>
+
+
+  <!-- SUCCESS CARD -->
+  <div class="success-card" *ngIf="submitted">
+    <h2>✅ Form Submitted Successfully</h2>
+    <p>We will contact you shortly.</p>
+
+    <button type="button"
+            (click)="submitted = false">
+      Submit Another Response
+    </button>
+  </div>
+
+</div>

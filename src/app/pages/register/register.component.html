@@ -1,0 +1,24 @@
+<div class="register-container">
+  <div class="register-card">
+    <h2>Create Account</h2>
+
+    <input type="text"
+           placeholder="Username"
+           [(ngModel)]="username" />
+
+    <input type="email"
+           placeholder="Email"
+           [(ngModel)]="email" />
+
+    <input type="password"
+           placeholder="Password"
+           [(ngModel)]="password" />
+
+    <button (click)="onRegister()">Register</button>
+
+    <p class="login-link">
+      Already have an account?
+      <span (click)="goToLogin()" class="link">Login</span>
+    </p>
+  </div>
+</div>

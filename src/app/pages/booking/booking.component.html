@@ -1,0 +1,12 @@
+<div class="page">
+  <h2>Doctor Appointments</h2>
+
+  <div class="booking-grid">
+    <div class="booking-card" *ngFor="let booking of bookings">
+      <h3>{{ booking.doctorName }}</h3>
+      <p><strong>Date:</strong> {{ booking.date }}</p>
+      <p><strong>Status:</strong> {{ booking.status }}</p>
+      <button>View Details</button>
+    </div>
+  </div>
+</div>

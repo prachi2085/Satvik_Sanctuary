@@ -1,0 +1,39 @@
+.announcement-section {
+  padding: 60px 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center everything */
+}
+
+.announcement-section h2 {
+  font-size: 34px;
+  margin-bottom: 40px;
+  color: saddlebrown;
+}
+
+.slider {
+  display: flex;
+  justify-content: center; /* center cards */
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap; /* prevents left scroll alignment */
+  padding-bottom: 10px;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.announcement-card {
+  min-width: 300px;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+  color: darkslategrey;
+}
+
+.announcement-card:hover {
+  transform: translateY(-6px);
+}

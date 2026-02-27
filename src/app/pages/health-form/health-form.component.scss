@@ -1,0 +1,82 @@
+.health-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.health-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.health-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1b4332;
+}
+
+/* FORM LAYOUT */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* INPUTS */
+input,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+/* Fix textarea height */
+textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+/* Validation */
+input.invalid,
+textarea.invalid {
+  border: 1px solid #e63946;
+}
+
+.error {
+  color: #e63946;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #2d6a4f;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #1b4332;
+}
+
+button:disabled {
+  background: #94d2bd;
+  cursor: not-allowed;
+}

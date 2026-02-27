@@ -1,0 +1,127 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: transparent;
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 🌿 Logo */
+//.logo {
+//  font-size: 26px;
+//  font-weight: 700;
+//  font-family: 'Playfair Display', cursive;
+//  color: #f4c430; 
+//}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+  height: 40px; /* adjust size here */
+  width: auto;
+}
+.menu-toggle {
+  display: none; /* hidden on desktop */
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.nav-logo span {
+  font-size: 28px;
+  font-weight: 700;
+  color: #f4c430; /* your gold color */
+  font-family: 'Great Vibes ', cursiv;
+}
+
+/* 🌱 Navigation Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #74c69d; /* Light green */
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #2d6a4f; /* Dark green hover */
+}
+
+/* 🌿 Logout Button (No Background) */
+.logout-btn {
+  background: none;
+  border: none;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #74c69d;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.logout-btn:hover {
+  color: #2d6a4f;
+}
+
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+    font-size: 26px;
+    color: #f4c430;
+  }
+  .nav-logo img {
+    position: relative;
+    top: 10px;
+    //right: 170px;
+    height: 40px; /* adjust size here */
+    width: auto;
+  }
+  .nav-logo span {
+    position: relative;
+    top: 10px;
+    //right: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #f4c430; /* your gold color */
+    font-family: 'Great Vibes ', cursiv;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.85); /* dark glass */
+    backdrop-filter: blur(8px);
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 12px;
+    gap: 15px;
+    display: none;
+    min-width: 180px;
+  }
+
+  .nav-links.active {
+    display: flex;
+    animation: fadeIn 0.3s ease;
+  }
+
+  .nav-links a {
+    color: white;
+  }
+  
+}

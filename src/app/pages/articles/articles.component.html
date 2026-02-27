@@ -1,0 +1,30 @@
+<section class="articles-section">
+  <h2>Latest Wellness Articles</h2>
+
+  <ng-container *ngIf="articles$ | async as articles; else loading">
+
+    <div *ngIf="articles.length > 0; else noArticles"
+         class="articles-grid">
+
+      <div class="article-card"
+           *ngFor="let article of articles"
+           (click)="openArticle(article.link)">
+
+        <h3>{{ article.title }}</h3>
+        <p>{{ article.published | date }}</p>
+
+      </div>
+
+    </div>
+
+  </ng-container>
+
+  <ng-template #loading>
+    Loading...
+  </ng-template>
+
+  <ng-template #noArticles>
+    No articles found.
+  </ng-template>
+
+</section>

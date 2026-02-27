@@ -1,0 +1,27 @@
+<nav class="navbar">
+
+  <div class="nav-logo" routerLink="/home">
+    <img src="assets/images/logo.png" alt="Satvik Sanctuary Logo" />
+    <span>Satvik Sanctuary</span>
+  </div>
+
+  <!-- Hamburger Icon -->
+  <div class="menu-toggle" (click)="toggleMenu()">
+    ☰
+  </div>
+
+  <div class="nav-links" [class.active]="menuOpen">
+    <a routerLink="/" (click)="closeMenu()">Home</a>
+    <a routerLink="/articles" (click)="closeMenu()">Articles</a>
+    <a routerLink="/healthform">Health Form</a>
+    <a routerLink="/register" *ngIf="!auth.isLoggedIn()" (click)="closeMenu()">Register</a>
+    <a routerLink="/login" *ngIf="!auth.isLoggedIn()" (click)="closeMenu()">Login</a>
+
+    <button class="logout-btn"
+            *ngIf="auth.isLoggedIn()"
+            (click)="auth.logout(); closeMenu()">
+      Logout
+    </button>
+  </div>
+
+</nav>

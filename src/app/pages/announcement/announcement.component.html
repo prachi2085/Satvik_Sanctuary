@@ -1,0 +1,13 @@
+<section class="announcement-section">
+  <h2>Upcoming Wellness Sessions</h2>
+
+  <div class="slider">
+    <div class="announcement-card" *ngFor="let ann of announcements">
+      <h3>{{ ann.title }}</h3>
+      <p>{{ ann.description }}</p>
+      <span class="date">
+        {{ ann.date | date:'longDate' }}
+      </span>
+    </div>
+  </div>
+</section>
