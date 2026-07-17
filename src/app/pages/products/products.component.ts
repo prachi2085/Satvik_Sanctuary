@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { Product } from '../../models/product.model';
 
-// Tells TypeScript that Razorpay exists as a global variable from index.html
 declare var Razorpay: any;
 
 @Component({
@@ -16,14 +15,18 @@ declare var Razorpay: any;
 })
 export class ProductsComponent {
 
-  // ── 🔑 PASTE YOUR RAZORPAY KEY HERE ──────────────────────────────────
-  private razorpayKeyId = 'rzp_live_TEToAny6caifuF';
+  private razorpayKeyId = 'rzp_test_PASTE_YOUR_KEY_HERE';
   private apiUrl = 'https://satvik-sanctuary-backend.onrender.com/api/orders';
 
-  // ── Modal state ───────────────────────────────────────────────────────
+  // ── Modal visibility ──────────────────────────────────────
   showBuyerForm = false;
-  selectedProduct: Product | null = null;
+  showSuccess = false;
   isSubmitting = false;
+
+  selectedProduct: Product | null = null;
+
+  // Confirmed order data shown in success popup
+  confirmedOrder: { productName: string; amountPaid: number; paymentId: string } | null = null;
 
   buyer = { name: '', email: '', phone: '', address: '' };
 
@@ -34,7 +37,7 @@ export class ProductsComponent {
       description: 'Nourish your feet. Calm your mind. Restore your balance.',
       price: '₹299',
       offerPrice: '₹149',
-      amountInPaise: 14900,       // ₹149 × 100 = 14900 paise
+      amountInPaise: 14900,
       discount: '50% OFF',
       image: 'assets/images/satva-sole.png',
       badge: 'New Launch',
@@ -50,45 +53,41 @@ export class ProductsComponent {
     this.activeSection = this.activeSection === section ? null : section;
   }
 
-  // STEP 1 — Buy Now clicked → open the buyer details form
+  // STEP 1 — Buy Now clicked → open buyer form popup
   openBuyerForm(product: Product): void {
     this.selectedProduct = product;
     this.buyer = { name: '', email: '', phone: '', address: '' };
     this.showBuyerForm = true;
   }
 
-  // Close modal when clicking the dark overlay
+  // Close buyer form when clicking dark overlay
   closeBuyerForm(event: MouseEvent): void {
     if ((event.target as HTMLElement).classList.contains('modal-overlay')) {
       this.showBuyerForm = false;
     }
   }
 
-  // STEP 2 — Buyer form submitted → open Razorpay
+  // STEP 2 — Buyer form submitted → close form → open Razorpay
   proceedToPayment(): void {
-    if (!this.buyer.name || !this.buyer.email || !this.buyer.phone || !this.selectedProduct) {
-      alert('Please fill all required fields.');
-      return;
-    }
+    if (!this.buyer.name || !this.buyer.email ||
+      !this.buyer.phone || !this.selectedProduct) return;
 
     this.showBuyerForm = false;
 
-    // Small delay so modal closes cleanly before Razorpay overlay opens
+    // Small delay so popup closes cleanly before Razorpay opens
     setTimeout(() => this.launchRazorpay(this.selectedProduct!), 300);
   }
 
-  // STEP 3 — Launch Razorpay checkout
+  // STEP 3 — Open Razorpay checkout
   private launchRazorpay(product: Product): void {
-
-    // Safety check — if script didn't load, tell user clearly
     if (typeof Razorpay === 'undefined') {
-      alert('Payment gateway failed to load. Please check your internet connection and refresh the page.');
+      alert('Payment gateway failed to load. Please refresh the page.');
       return;
     }
 
     const options = {
       key: this.razorpayKeyId,
-      amount: product.amountInPaise,   // must be in paise
+      amount: product.amountInPaise,
       currency: 'INR',
       name: 'Satvik Sanctuary',
       description: product.name,
@@ -100,13 +99,11 @@ export class ProductsComponent {
       },
       theme: { color: '#B8860B' },
       handler: (response: any) => {
-        // STEP 4 — Payment succeeded, save to backend
+        // STEP 4 — Payment done → save to backend
         this.saveOrderToBackend(product, response.razorpay_payment_id);
       },
       modal: {
-        ondismiss: () => {
-          console.log('Razorpay modal closed by user');
-        }
+        ondismiss: () => console.log('Payment cancelled by user')
       }
     };
 
@@ -122,7 +119,7 @@ export class ProductsComponent {
     }
   }
 
-  // STEP 4 — Save order to your .NET backend (saves to DB + sends emails)
+  // STEP 4 — POST to backend → save order + send emails → show success popup
   private saveOrderToBackend(product: Product, paymentId: string): void {
     this.isSubmitting = true;
 
@@ -140,21 +137,22 @@ export class ProductsComponent {
     this.http.post<any>(this.apiUrl, payload).subscribe({
       next: () => {
         this.isSubmitting = false;
-        alert(
-          `✅ Order confirmed!\n\n` +
-          `A confirmation email has been sent to ${this.buyer.email}.\n` +
-          `We'll dispatch your order within 2–3 business days.`
-        );
+        this.confirmedOrder = {
+          productName: product.name,
+          amountPaid: product.amountInPaise / 100,
+          paymentId: paymentId
+        };
+        this.showSuccess = true;   // ← shows the success popup
       },
-      error: (err) => {
+      error: () => {
         this.isSubmitting = false;
-        console.error('Backend error after payment:', err);
-        // Payment already went through — don't alarm the customer
-        alert(
-          `✅ Payment received! (ID: ${paymentId})\n\n` +
-          `There was a minor issue sending your confirmation email.\n` +
-          `Please contact sattviksanctuary@gmail.com with your payment ID.`
-        );
+        // Payment went through even if backend had an error
+        this.confirmedOrder = {
+          productName: product.name,
+          amountPaid: product.amountInPaise / 100,
+          paymentId: paymentId
+        };
+        this.showSuccess = true;   // still show success — payment was real
       }
     });
   }
