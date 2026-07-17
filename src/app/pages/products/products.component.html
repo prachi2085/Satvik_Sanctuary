@@ -1,0 +1,206 @@
+<section class="products-section">
+
+  <div class="products-header">
+    <span class="eyebrow">Our Offerings</span>
+    <h2>Launching Soon</h2>
+    <p class="subtitle">
+      Crafted from centuries-old Ayurvedic pharmacopeia — for the modern body seeking deep, lasting balance.
+    </p>
+  </div>
+
+  <div class="products-grid">
+    <div class="product-card" *ngFor="let product of products">
+
+      <div class="product-badge" *ngIf="product.badge">{{ product.badge }}</div>
+
+      <div class="product-image-wrap">
+        <img [src]="product.image" [alt]="product.name" class="product-image">
+      </div>
+
+      <div class="product-body">
+        <h3 class="product-name">{{ product.name }}</h3>
+        <p class="product-desc">{{ product.description }}</p>
+
+        <div class="product-details">
+
+          <div class="detail-item">
+            <div class="detail-header" (click)="toggleSection('description')">
+              <span>Description</span>
+              <span class="icon">{{ activeSection === 'description' ? '−' : '+' }}</span>
+            </div>
+            <div class="detail-content" *ngIf="activeSection === 'description'">
+              <p>Satva Sole is an Ayurvedic foot massage oil crafted using traditional herbs to relax tired feet, calm the nervous system, nourish the skin and promote better sleep.</p>
+            </div>
+          </div>
+
+          <div class="detail-item">
+            <div class="detail-header" (click)="toggleSection('ingredients')">
+              <span>Ingredients</span>
+              <span class="icon">{{ activeSection === 'ingredients' ? '−' : '+' }}</span>
+            </div>
+            <div class="detail-content" *ngIf="activeSection === 'ingredients'">
+              <ul>
+                <li>Tila Taila (Sesame Oil)</li>
+                <li>Ashwagandha</li>
+                <li>Nirgundi</li>
+                <li>Rasna</li>
+                <li>Eranda Moola</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="detail-item">
+            <div class="detail-header" (click)="toggleSection('benefits')">
+              <span>Benefits</span>
+              <span class="icon">{{ activeSection === 'benefits' ? '−' : '+' }}</span>
+            </div>
+            <div class="detail-content" *ngIf="activeSection === 'benefits'">
+              <ul>
+                <li>Relieves tired feet</li>
+                <li>Promotes restful sleep</li>
+                <li>Calms stress & anxiety</li>
+                <li>Nourishes dry feet</li>
+                <li>Supports circulation</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="detail-item">
+            <div class="detail-header" (click)="toggleSection('usage')">
+              <span>How to Use</span>
+              <span class="icon">{{ activeSection === 'usage' ? '−' : '+' }}</span>
+            </div>
+            <div class="detail-content" *ngIf="activeSection === 'usage'">
+              <ol>
+                <li>Apply using the roll-on over clean feet.</li>
+                <li>Massage gently for 3–5 minutes.</li>
+                <li>Leave overnight for best results.</li>
+              </ol>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="product-footer">
+          <div class="price-section">
+            <div class="offer-row">
+              <span class="early-offer">🌿 Early Bird Offer</span>
+              <span class="discount-badge">{{ product.discount }}</span>
+            </div>
+            <div class="price-row">
+              <span class="original-price">{{ product.price }}</span>
+              <span class="offer-price">{{ product.offerPrice }}</span>
+            </div>
+          </div>
+          <button class="buy-btn" (click)="openBuyerForm(product)">
+            Buy Now
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="pre-order-note">
+    <span>🔒</span>
+    <p>Secure payments powered by Razorpay. UPI · Cards · Net Banking · Wallets accepted.</p>
+  </div>
+
+</section>
+
+<!-- ══════════════════════════════════════════════
+     BUYER DETAILS POPUP
+══════════════════════════════════════════════ -->
+<div class="modal-overlay" *ngIf="showBuyerForm" (click)="closeBuyerForm($event)">
+  <div class="buyer-modal">
+
+    <button class="modal-close" (click)="showBuyerForm = false">✕</button>
+
+    <div class="modal-header">
+      <span class="modal-icon">🌿</span>
+      <h3>Enter your details</h3>
+      <p class="modal-sub">We need these to confirm and deliver your order.</p>
+    </div>
+
+    <form class="buyer-form" (ngSubmit)="proceedToPayment()" #buyerForm="ngForm">
+
+      <div class="form-group">
+        <label>Full Name *</label>
+        <input type="text" name="name" [(ngModel)]="buyer.name"
+               required placeholder="Your full name" />
+      </div>
+
+      <div class="form-group">
+        <label>Email Address *</label>
+        <input type="email" name="email" [(ngModel)]="buyer.email"
+               required placeholder="your@email.com" />
+        <span class="form-hint">Order confirmation will be sent here</span>
+      </div>
+
+      <div class="form-group">
+        <label>Phone Number *</label>
+        <input type="tel" name="phone" [(ngModel)]="buyer.phone"
+               required placeholder="+91 98765 43210" />
+      </div>
+
+      <div class="form-group">
+        <label>Delivery Address *</label>
+        <textarea name="address" [(ngModel)]="buyer.address"
+                  rows="3" required
+                  placeholder="House no., Street, City, PIN code"></textarea>
+      </div>
+
+      <button type="submit" class="pay-btn" [disabled]="buyerForm.invalid">
+        Proceed to Payment →
+      </button>
+
+    </form>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     ORDER SUCCESS POPUP
+══════════════════════════════════════════════ -->
+<div class="modal-overlay" *ngIf="showSuccess">
+  <div class="success-modal">
+
+    <div class="success-icon-wrap">🌿</div>
+
+    <h2 class="success-title">Order Placed!</h2>
+    <p class="success-msg">
+      Thank you, <strong>{{ buyer.name }}</strong>!<br>
+      Our team will contact you soon on <strong>{{ buyer.phone }}</strong>
+      to confirm delivery details.
+    </p>
+
+    <div class="order-summary-box">
+      <div class="summary-row">
+        <span class="summary-label">Product</span>
+        <span class="summary-value">{{ confirmedOrder?.productName }}</span>
+      </div>
+      <div class="summary-row">
+        <span class="summary-label">Amount Paid</span>
+        <span class="summary-value">₹{{ confirmedOrder?.amountPaid }}</span>
+      </div>
+      <div class="summary-row">
+        <span class="summary-label">Payment ID</span>
+        <span class="summary-value payment-id">{{ confirmedOrder?.paymentId }}</span>
+      </div>
+      <div class="summary-row">
+        <span class="summary-label">Status</span>
+        <span class="status-badge">✓ Confirmed</span>
+      </div>
+    </div>
+
+    <p class="success-note">
+      A confirmation email has been sent to <strong>{{ buyer.email }}</strong>.<br>
+      Save your Payment ID for reference.
+    </p>
+
+    <button class="close-success-btn" (click)="showSuccess = false">
+      Continue Shopping
+    </button>
+
+  </div>
+</div>
