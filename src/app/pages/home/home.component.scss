@@ -269,36 +269,36 @@
 }
 
 /* YOUTUBE CTA SECTION */
-.shorts-section {
-  padding: 60px 10%;
-  text-align: center;
-}
-.video-section h2 {
-  color: saddlebrown;
-}
+//.shorts-section {
+//  padding: 60px 10%;
+//  text-align: center;
+//}
+//.video-section h2 {
+//  color: saddlebrown;
+//}
 
-.shorts-container {
-  display: flex;
-  justify-content: center;
-}
+//.shorts-container {
+//  display: flex;
+//  justify-content: center;
+//}
 
-.shorts-container iframe {
-  width: 280px; /* smaller size */
-  aspect-ratio: 9 / 16; /* perfect vertical shorts */
-  border-radius: 18px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-.youtube-cta {
-  margin-top: 40px;
-  text-align: center;
-}
+//.shorts-container iframe {
+//  width: 280px; /* smaller size */
+//  aspect-ratio: 9 / 16; /* perfect vertical shorts */
+//  border-radius: 18px;
+//  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+//}
+//.youtube-cta {
+//  margin-top: 40px;
+//  text-align: center;
+//}
 
-.cta-text {
-  font-size: 18px;
-  color: sandybrown;
-  margin-bottom: 20px;
-  font-weight: 500;
-}
+//.cta-text {
+//  font-size: 18px;
+//  color: sandybrown;
+//  margin-bottom: 20px;
+//  font-weight: 500;
+//}
 
 /* Subscribe Button */
 .subscribe-btn {
@@ -316,4 +316,150 @@
 .subscribe-btn:hover {
   background: #cc0000;
   transform: translateY(-3px);
+}
+
+.products-hero-btn {
+  background: transparent;
+  border: 2px solid #D4A017;
+  color: #D4A017;
+  margin-left: 12px;
+}
+
+.products-hero-btn:hover {
+  background: #D4A017;
+  color: white;
+}
+
+.instagram-section {
+  padding: -40px 8%;
+  background: transparent;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-heading h2 {
+  font-size: 42px;
+  font-family: 'Playfair Display',serif;
+  color: #2C1810;
+  margin: 12px 0;
+}
+
+.section-heading p {
+  color: #6B4C3B;
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 24px;
+}
+
+.insta-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.insta-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  transition: .4s;
+}
+
+.insta-card:hover img {
+  transform: scale(1.06);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(44,24,16,.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: .4s;
+}
+
+.insta-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay span {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.instagram-button {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.instagram-button a {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #B8860B;
+  color: white;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.instagram-button a:hover {
+  background: #8B6914;
+}
+
+.featured-product {
+  padding: -40px 8%;
+  text-align: center;
+}
+
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-image {
+  width: 320px;
+  max-width: 100%;
+  transition: transform .3s ease;
+}
+
+.featured-image:hover {
+  transform: scale(1.05);
+}
+
+.view-product-btn {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 14px 32px;
+  background: #B8860B;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.view-product-btn:hover {
+  background: #8B6914;
+  transform: translateY(-2px);
+}
+
+@media (max-width:768px) {
+
+  .featured-image {
+    width: 220px;
+  }
 }

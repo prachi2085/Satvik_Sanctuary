@@ -16,6 +16,7 @@
     <a routerLink="/healthform">Health Form</a>
     <a routerLink="/register" *ngIf="!auth.isLoggedIn()" (click)="closeMenu()">Register</a>
     <a routerLink="/login" *ngIf="!auth.isLoggedIn()" (click)="closeMenu()">Login</a>
+    <a routerLink="/products" (click)="closeMenu()">Products</a>
 
     <button class="logout-btn"
             *ngIf="auth.isLoggedIn()"

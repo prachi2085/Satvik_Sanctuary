@@ -27,8 +27,8 @@ export class AnnouncementComponent implements OnInit {
           this.announcements = [
             {
               title: 'Upcoming Session',
-              description: '28th February – Launching Soon',
-              date: new Date(2026, 1, 28)
+              description: 'Product Launching Session',
+              date: new Date(2026, 6, 20)
             }
           ];
         } else {
@@ -41,8 +41,8 @@ export class AnnouncementComponent implements OnInit {
         this.announcements = [
           {
             title: 'Upcoming Session',
-            description: '28th February – Launching Soon',
-            date: new Date(2026, 1, 28)
+            description: 'Product Launching Session',
+            date: new Date(2026, 6, 20)
           }
         ];
 
