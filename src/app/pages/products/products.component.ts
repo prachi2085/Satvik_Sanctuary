@@ -15,7 +15,7 @@ declare var Razorpay: any;
 })
 export class ProductsComponent {
 
-  private razorpayKeyId = 'rzp_test_PASTE_YOUR_KEY_HERE';
+  private razorpayKeyId = 'rzp_live_TEToAny6caifuF';
   private apiUrl = 'https://satvik-sanctuary-backend.onrender.com/api/orders';
 
   // ── Modal visibility ──────────────────────────────────────
