@@ -4,8 +4,16 @@
     <span class="eyebrow">Our Offerings</span>
     <h2>Launching Soon</h2>
     <p class="subtitle">
-      Crafted from centuries-old Ayurvedic pharmacopeia — for the modern body seeking deep, lasting balance.
+      Crafted from centuries-old Ayurvedic pharmacopeia — for the
+      modern body seeking deep, lasting balance.
     </p>
+  </div>
+
+  <!-- FREE DELIVERY BANNER -->
+  <div class="delivery-banner">
+    🚚 &nbsp; Free delivery in <strong>Bhopal</strong> &nbsp;·&nbsp;
+    Free delivery on <strong>3+ items</strong> anywhere &nbsp;·&nbsp;
+    ₹99 delivery for other locations
   </div>
 
   <div class="products-grid">
@@ -29,7 +37,11 @@
               <span class="icon">{{ activeSection === 'description' ? '−' : '+' }}</span>
             </div>
             <div class="detail-content" *ngIf="activeSection === 'description'">
-              <p>Satva Sole is an Ayurvedic foot massage oil crafted using traditional herbs to relax tired feet, calm the nervous system, nourish the skin and promote better sleep.</p>
+              <p>
+                Satva Sole is an Ayurvedic foot massage oil crafted using traditional herbs
+                to relax tired feet, calm the nervous system, nourish the skin and promote
+                better sleep.
+              </p>
             </div>
           </div>
 
@@ -92,13 +104,38 @@
               <span class="offer-price">{{ product.offerPrice }}</span>
             </div>
           </div>
-          <button class="buy-btn" (click)="openBuyerForm(product)">
-            Buy Now
-          </button>
+
+          <!-- QUANTITY CONTROLS -->
+          <div class="qty-controls" *ngIf="getCartQty(product) > 0; else addBtn">
+            <button class="qty-btn" (click)="removeFromCart(product)">−</button>
+            <span class="qty-num">{{ getCartQty(product) }}</span>
+            <button class="qty-btn" (click)="addToCart(product)">+</button>
+          </div>
+          <ng-template #addBtn>
+            <button class="add-btn" (click)="addToCart(product)">Add to Cart</button>
+          </ng-template>
+
         </div>
 
       </div>
     </div>
+  </div>
+
+  <!-- CART SUMMARY BAR — shows when cart has items -->
+  <div class="cart-bar" *ngIf="cart.length > 0">
+    <div class="cart-bar-left">
+      <span class="cart-icon">🛒</span>
+      <div>
+        <div class="cart-items-label">{{ totalItems }} item{{ totalItems > 1 ? 's' : '' }} in cart</div>
+        <div class="cart-total-label">
+          ₹{{ productTotal }}
+          <span class="free-tag" *ngIf="totalItems >= 3"> + Free Delivery 🎉</span>
+        </div>
+      </div>
+    </div>
+    <button class="checkout-btn" (click)="openBuyerForm()">
+      Proceed to Checkout →
+    </button>
   </div>
 
   <div class="pre-order-note">
@@ -108,9 +145,7 @@
 
 </section>
 
-<!-- ══════════════════════════════════════════════
-     BUYER DETAILS POPUP
-══════════════════════════════════════════════ -->
+<!-- ══════════ BUYER DETAILS + DELIVERY POPUP ══════════ -->
 <div class="modal-overlay" *ngIf="showBuyerForm" (click)="closeBuyerForm($event)">
   <div class="buyer-modal">
 
@@ -118,8 +153,8 @@
 
     <div class="modal-header">
       <span class="modal-icon">🌿</span>
-      <h3>Enter your details</h3>
-      <p class="modal-sub">We need these to confirm and deliver your order.</p>
+      <h3>Delivery Details</h3>
+      <p class="modal-sub">Tell us where to send your order.</p>
     </div>
 
     <form class="buyer-form" (ngSubmit)="proceedToPayment()" #buyerForm="ngForm">
@@ -134,7 +169,7 @@
         <label>Email Address *</label>
         <input type="email" name="email" [(ngModel)]="buyer.email"
                required placeholder="your@email.com" />
-        <span class="form-hint">Order confirmation will be sent here</span>
+        <span class="form-hint">Confirmation email will be sent here</span>
       </div>
 
       <div class="form-group">
@@ -146,12 +181,46 @@
       <div class="form-group">
         <label>Delivery Address *</label>
         <textarea name="address" [(ngModel)]="buyer.address"
-                  rows="3" required
-                  placeholder="House no., Street, City, PIN code"></textarea>
+                  rows="2" required
+                  placeholder="House no., Street, City"></textarea>
       </div>
 
-      <button type="submit" class="pay-btn" [disabled]="buyerForm.invalid">
-        Proceed to Payment →
+      <!-- PINCODE with live delivery check -->
+      <div class="form-group">
+        <label>Pincode *</label>
+        <input type="text" name="pincode" [(ngModel)]="buyer.pincode"
+               (input)="onPincodeInput()"
+               required maxlength="6"
+               placeholder="e.g. 462001" />
+        <span class="delivery-msg" [ngClass]="deliveryMessageClass">
+          {{ deliveryMessage }}
+        </span>
+      </div>
+
+      <!-- ORDER SUMMARY IN FORM -->
+      <div class="order-summary-inline">
+        <div class="summary-line">
+          <span>Products ({{ totalItems }} item{{ totalItems > 1 ? 's' : '' }})</span>
+          <span>₹{{ productTotal }}</span>
+        </div>
+        <div class="summary-line">
+          <span>Delivery</span>
+          <span [class.free-green]="deliveryCharge === 0 && pincodeStatus !== 'empty'">
+            {{ (deliveryCharge === 0 && pincodeStatus !== 'empty') ? 'FREE' : (pincodeStatus === 'other' ? '₹' + deliveryCharge : '—') }}
+          </span>
+        </div>
+        <div class="summary-line total-line">
+          <span>Total</span>
+          <span>₹{{ grandTotal }}</span>
+        </div>
+      </div>
+
+      <button type="submit" class="pay-btn"
+              [disabled]="buyerForm.invalid ||
+                          pincodeStatus === 'empty' ||
+                          pincodeStatus === 'checking' ||
+                          pincodeStatus === 'invalid'">
+        Pay ₹{{ grandTotal }} Securely →
       </button>
 
     </form>
@@ -159,19 +228,16 @@
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════════
-     ORDER SUCCESS POPUP
-══════════════════════════════════════════════ -->
+<!-- ══════════ SUCCESS POPUP ══════════ -->
 <div class="modal-overlay" *ngIf="showSuccess">
   <div class="success-modal">
 
     <div class="success-icon-wrap">🌿</div>
-
     <h2 class="success-title">Order Placed!</h2>
     <p class="success-msg">
       Thank you, <strong>{{ buyer.name }}</strong>!<br>
       Our team will contact you soon on <strong>{{ buyer.phone }}</strong>
-      to confirm delivery details.
+      to confirm your delivery.
     </p>
 
     <div class="order-summary-box">
@@ -180,8 +246,23 @@
         <span class="summary-value">{{ confirmedOrder?.productName }}</span>
       </div>
       <div class="summary-row">
-        <span class="summary-label">Amount Paid</span>
-        <span class="summary-value">₹{{ confirmedOrder?.amountPaid }}</span>
+        <span class="summary-label">Quantity</span>
+        <span class="summary-value">{{ confirmedOrder?.quantity }}</span>
+      </div>
+      <div class="summary-row">
+        <span class="summary-label">Product Total</span>
+        <span class="summary-value">₹{{ confirmedOrder?.productTotal }}</span>
+      </div>
+      <div class="summary-row">
+        <span class="summary-label">Delivery</span>
+        <span class="summary-value"
+              [class.free-green]="confirmedOrder?.deliveryCharge === 0">
+          {{ confirmedOrder?.deliveryCharge === 0 ? 'FREE' : '₹' + confirmedOrder?.deliveryCharge }}
+        </span>
+      </div>
+      <div class="summary-row total-row">
+        <span class="summary-label">Total Paid</span>
+        <span class="summary-value">₹{{ confirmedOrder?.totalPaid }}</span>
       </div>
       <div class="summary-row">
         <span class="summary-label">Payment ID</span>

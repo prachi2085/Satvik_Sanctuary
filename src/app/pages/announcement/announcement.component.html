@@ -3,11 +3,88 @@
 
   <div class="slider">
     <div class="announcement-card" *ngFor="let ann of announcements">
+
+      <div class="card-icon">🌿</div>
       <h3>{{ ann.title }}</h3>
       <p>{{ ann.description }}</p>
+
       <span class="date">
         {{ ann.date | date:'longDate' }}
       </span>
+
+      <!-- ✅ SESSION REGISTRATION BUTTON -->
+      <button class="register-btn" (click)="registerForSession(ann)">
+        Register for this Session →
+      </button>
+
     </div>
   </div>
+
+  <!-- Registration Modal -->
+  <div class="modal-overlay" *ngIf="showModal" (click)="closeModal($event)">
+    <div class="modal-box">
+
+      <button class="modal-close" (click)="showModal = false">✕</button>
+
+      <div class="modal-header">
+        <span class="modal-icon">🌿</span>
+        <h3>Register for Session</h3>
+        <p class="modal-session-name">{{ selectedSession?.title }}</p>
+        <span class="modal-date">{{ selectedSession?.date | date:'longDate' }}</span>
+      </div>
+
+      <form class="modal-form" (ngSubmit)="submitRegistration()" #regForm="ngForm">
+
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text"
+                 name="name"
+                 [(ngModel)]="regData.name"
+                 required
+                 placeholder="Your full name" />
+        </div>
+
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email"
+                 name="email"
+                 [(ngModel)]="regData.email"
+                 required
+                 placeholder="your@email.com" />
+        </div>
+
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel"
+                 name="phone"
+                 [(ngModel)]="regData.phone"
+                 required
+                 placeholder="+91 98765 43210" />
+        </div>
+
+        <div class="form-group">
+          <label>Any questions for the practitioner? <span class="optional">(optional)</span></label>
+          <textarea name="message"
+                    [(ngModel)]="regData.message"
+                    rows="3"
+                    placeholder="What would you like to explore in this session?"></textarea>
+        </div>
+
+        <button type="submit"
+                class="submit-btn"
+                [disabled]="regForm.invalid || isSubmitting">
+          {{ isSubmitting ? 'Registering...' : 'Confirm Registration' }}
+        </button>
+
+      </form>
+
+      <div class="success-box" *ngIf="registrationDone">
+        <span class="success-icon">✅</span>
+        <h4>You're registered!</h4>
+        <p>We'll send details to <strong>{{ regData.email }}</strong> within 24 hours.</p>
+      </div>
+
+    </div>
+  </div>
+
 </section>
