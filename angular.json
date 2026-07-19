@@ -23,9 +23,12 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            
+
             "assets": [
               "src/favicon.ico",
+              "src/favicon-32x32.png",
+              "src/favicon-16x16.png",
+              "src/apple-touch-icon.png",
               "src/assets"
             ],
             "styles": [
